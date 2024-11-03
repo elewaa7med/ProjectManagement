@@ -1,0 +1,17 @@
+
+add-project-page {
+    padding: 20px;
+  }
+  
+  .add-project-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-project-page input,
+  .add-project-page select,
+  .add-project-page button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }

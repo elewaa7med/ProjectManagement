@@ -1,0 +1,18 @@
+.projects-page {
+    padding: 20px;
+  }
+  
+  .add-project-button {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+  }

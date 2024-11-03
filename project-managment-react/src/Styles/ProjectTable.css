@@ -1,0 +1,19 @@
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .project-table th,
+  .project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .project-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .project-table button {
+    margin-right: 5px;
+  }
