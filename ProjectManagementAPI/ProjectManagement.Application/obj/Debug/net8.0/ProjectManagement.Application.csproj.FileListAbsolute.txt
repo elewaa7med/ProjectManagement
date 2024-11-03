@@ -1,0 +1,16 @@
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.csproj.AssemblyReference.cache
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.AssemblyInfoInputs.cache
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.AssemblyInfo.cs
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.sourcelink.json
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.deps.json
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Application.pdb
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Core.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\bin\Debug\net8.0\ProjectManagement.Core.pdb
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectM.6FAF72D3.Up2Date
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\refint\ProjectManagement.Application.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ProjectManagement.Application.pdb
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Application\obj\Debug\net8.0\ref\ProjectManagement.Application.dll

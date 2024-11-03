@@ -1,0 +1,12 @@
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.deps.json
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\bin\Debug\net8.0\ProjectManagement.Core.pdb
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.AssemblyInfoInputs.cache
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.AssemblyInfo.cs
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.sourcelink.json
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\refint\ProjectManagement.Core.dll
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ProjectManagement.Core.pdb
+C:\Users\ahmed.elewa\elewa\Freelance\Projects\ProjectManagementAPI\ProjectManagement.Core\obj\Debug\net8.0\ref\ProjectManagement.Core.dll
