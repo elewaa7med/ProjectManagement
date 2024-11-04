@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate} from 'react-router-dom';
 import {jwtDecode } from 'jwt-decode';
 import { CustomJwtPayload } from '../Types/JwtPayload'; 
 import authService from '../Services/authService';
@@ -9,17 +9,16 @@ import '../Styles/Authentication.css';
 const Login: React.FC = () => {
     const [username, setUsername] = useState<string>('');
     const [password, setPassword] = useState<string>('');
-
+    const navigate = useNavigate();
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         try {
             const credentials = { username, password };
             const token = await authService.login(credentials);
-            const decodedToken = jwtDecode<CustomJwtPayload>(token);
-            const userRole = decodedToken.role; 
+            const userRole = jwtDecode<CustomJwtPayload>(token).role;
             localStorage.setItem('token', token);
             localStorage.setItem('role', userRole);
-           
+            navigate("/")
         } catch (error) {
             console.error("Login failed:", error);
         }

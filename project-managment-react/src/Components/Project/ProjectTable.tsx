@@ -1,16 +1,15 @@
 // src/components/ProjectTable.tsx
 import React from 'react';
 import { Project, ProjectStatus } from '../../Types/ProjectTypes';
+import { useNavigate } from 'react-router-dom';
 import '../../Styles/ProjectTable.css';
 
 interface ProjectTableProps {
   projects: Project[];
-  onView: (projectId: number) => void;
-  onEdit: (projectId: number) => void;
-  onDelete: (projectId: number) => void;
 }
 
-const ProjectTable: React.FC<ProjectTableProps> = ({ projects, onView, onEdit, onDelete }) => {
+const ProjectTable: React.FC<ProjectTableProps> = ({ projects }) => {
+  const navigate = useNavigate();
   const renderStatus = (status: ProjectStatus) => {
     switch (status) {
       case ProjectStatus.NotStarted:
@@ -39,7 +38,7 @@ const ProjectTable: React.FC<ProjectTableProps> = ({ projects, onView, onEdit, o
       </thead>
       <tbody>
       {Array.isArray(projects) && projects.map((project) => (
-          <tr key={project.id}>
+          <tr key={project.projectId}>
             <td>{project.projectName}</td>
             <td>{project.description}</td>
             <td>{project.startDate}</td>
@@ -47,9 +46,9 @@ const ProjectTable: React.FC<ProjectTableProps> = ({ projects, onView, onEdit, o
             <td>{project.budget}</td>
             <td>{renderStatus(project.status)}</td>
             <td>
-              <button onClick={() => onView(project.id)}>View</button>
-              <button onClick={() => onEdit(project.id)}>Edit</button>
-              <button onClick={() => onDelete(project.id)}>Delete</button>
+              <button onClick={() => navigate(`/projects/view/${project.projectId}`)}>View</button>
+              <button onClick={() => navigate(`/projects/edit/${project.projectId}`)}>Edit</button>
+              <button onClick={() => navigate(`/projects/delete/${project.projectId}`)}>Delete</button>
             </td>
           </tr>
         ))}

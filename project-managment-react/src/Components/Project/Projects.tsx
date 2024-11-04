@@ -10,10 +10,13 @@ const Projects: React.FC = () => {
   const [page, setPage] = useState(1);
   const [limit] = useState(10); // Adjust as needed
   const navigate = useNavigate();
-
+  if(localStorage.getItem('token'))
+    navigate('/login');
   useEffect(() => {
+    
     const loadProjects = async () => {
       const data = await getProjects(page, limit);
+      console.log(data);
       setProjects(data);
     };
     loadProjects();
@@ -29,9 +32,6 @@ const Projects: React.FC = () => {
       <button className="add-project-button" onClick={handleAddProject}>Add Project</button>
       <ProjectTable
         projects={projects}
-        onView={(projectId) => navigate(`/projects/view/${projectId}`)}
-        onEdit={(projectId) => navigate(`/projects/edit/${projectId}`)}
-        onDelete={(projectId) => console.log('Delete project', projectId)}
       />
       <div className="pagination">
         <button onClick={() => setPage(page - 1)} disabled={page === 1}>Previous</button>

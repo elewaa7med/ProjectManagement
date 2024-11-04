@@ -8,8 +8,17 @@ export interface CreateProject {
   owner: string;
   status:ProjectStatus; 
 }
+export interface UpdateProject {
+  projectName: string;
+  description: string;
+  startDate: string;
+  endDate: string;   
+  budget: number;
+  owner: string;
+  status:ProjectStatus; 
+}
 export interface Project {
-  id: number;
+  projectId: number;
   projectName: string;
   description: string;
   startDate: string;

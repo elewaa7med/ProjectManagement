@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Project , CreateProject} from '../Types/ProjectTypes';
+import { Project , CreateProject, UpdateProject} from '../Types/ProjectTypes';
 import { ApiResponse } from '../Types/ResponseTypes';
 
 const api = axios.create({
@@ -18,19 +18,28 @@ export const getProjects = async (pageId:number =1, pageSize:number =10) => {
             pageSize: pageSize,
         }
     });
+    console.log(response.data.data);
     return response.data.data;
 };
-
+export const getProject = async (projectId: number) => {
+    const response = await api.get<ApiResponse<Project>>(`/${projectId}`);
+    return response.data.data;
+  };
 // Add a new project
 export const addProject = async (project: CreateProject) => {
-    const response = await api.post('/', project);
+    const response = await api.post<ApiResponse<Project>>('/', project);
     return response.data;
 };
 
 // Update a project
-export const updateProject = async (id:number, project: CreateProject) => {
+export const updateProject = async (id:number, project: UpdateProject) => {
+    console.log(project);
+    try{
     const response = await api.put(`/${id}`, project);
     return response.data;
+}catch(exception ){
+    console.log(exception);
+}
 };
 
 // Delete a project

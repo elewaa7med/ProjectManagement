@@ -1,0 +1,16 @@
+.edit-project-page {
+    padding: 20px;
+  }
+  
+  .edit-project-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-project-page input,
+  .edit-project-page select,
+  .edit-project-page button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
